@@ -18,7 +18,10 @@ p {
 
 body {
     background-color: #e5eff5;
-    margin: 0px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #main-container {
@@ -131,7 +134,7 @@ button:hover {
 }
 @media (min-width: 576px) {
   body {
-    margin: 20px;
+    min-height: 100vh;
   }
   #main-container {
     width: 550px;
